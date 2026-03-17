@@ -40,6 +40,8 @@ end
 
 1. 基本使用
 
+下载本项目的 `xmake.lua` 到本地为 `fix_ndk_std_modules.xmake.lua`
+
 在你的 xmake.lua 文件中：
 
 ```lua
@@ -60,7 +62,7 @@ cxx_Link_mode string "static" C++ 运行时库链接方式，可选 "static" 或
 
 ## 问题分析, 修复原理
 
-详见 [fix_ndk_std_modules.xmake.lua](fix_ndk_std_modules.xmake.lua)
+详见 [xmake.lua](xmake.lua)
 
 ## 测试环境
 
